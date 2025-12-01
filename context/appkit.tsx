@@ -3,6 +3,7 @@
 import { createAppKit } from "@reown/appkit/react";
 import { defaultNetwork, ethersAdapter, networks, projectId } from "@/config";
 import { ReactNode } from "react";
+import { ReownAuthentication } from "@reown/appkit-siwx";
 
 const metadata = {
   name: "My Website",
@@ -17,6 +18,7 @@ createAppKit({
   networks,
   defaultNetwork,
   projectId,
+  siwx: new ReownAuthentication(), // impletements custom SIWX authentication by DefaultSIWX
   features: {
     analytics: true, // Optional - defaults to your Cloud configuration
   },
