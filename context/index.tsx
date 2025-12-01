@@ -1,10 +1,13 @@
 import { ReactNode } from "react";
 import AppKitProvider from "./appkit";
+import JotaiProvider from "./jotai";
 
 function ContextProvider({ children }: { children: ReactNode }) {
   return (
     <>
-      <AppKitProvider>{children}</AppKitProvider>
+      <JotaiProvider>
+        <AppKitProvider>{children}</AppKitProvider>
+      </JotaiProvider>
     </>
   );
 }

@@ -5,8 +5,9 @@ This is a https://nextjs.org/ project bootstrapped with [create-next-app](https:
 ## 🚀 Features
 
 1. **Reown AppKit with ethers** - Integrated wallet connection solution
-2. **shadcn-ui** - Modern, accessible component library
-3. **Reown SIWX** - The Sign In With X feature enables decentralized applications (Dapps) to authenticate users seamlessly across multiple blockchain networks, such as Ethereum, Solana, and Bitcoin, since this feature is chain agnostic.
+1. **shadcn-ui** - Modern, accessible component library
+1. **Reown SIWX** - The Sign In With X feature enables decentralized applications (Dapps) to authenticate users seamlessly across multiple blockchain networks, such as Ethereum, Solana, and Bitcoin, since this feature is chain agnostic.
+1. **Jotai** - Jotai takes an atomic approach to global React state management.
 
 ## 🛠️ Getting Started
 
