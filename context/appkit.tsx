@@ -9,7 +9,9 @@ const metadata = {
   name: "My Website",
   description: "Next.js Dapps Starter Template",
   url: "https://nextjs-appkit-ethers-shadcn-templat-nine.vercel.app", // origin must match your domain & subdomain
-  icons: ["https://nextjs-appkit-ethers-shadcn-templat-nine.vercel.app/vercel.svg"],
+  icons: [
+    "https://nextjs-appkit-ethers-shadcn-templat-nine.vercel.app/vercel.svg",
+  ],
 };
 
 createAppKit({
